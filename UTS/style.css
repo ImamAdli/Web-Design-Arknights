@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: inline-table;
+}
+
+.header{
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+}
+.isi-menu{
+    display: inline-block;
+    position: relative;
+    flex-grow: 1;
+}
+
+.menu{
+    width: 100%;
+    float: left;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: darken;
+}
+
+.menu ul {
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 15px 30px;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 0 30px;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Arial;
+    font-weight: bold;
+
+}
+
+.menu ul li a:hover{
+    color: #80ff80;
+    transition: 0.2s;
+}
+
+.page1{
+    height: 700px;
+    background-image: url('images/1034459.jpg');
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    align-items: center;
+    background-position: center;
+}
+
+.kotak {
+    position: relative;
+    width: 900px;
+    height: 430px;
+    top: 235px;
+    grid-template-columns: 300px 300px 300px;
+    display: grid;
+    margin: auto;
+}
+
+.kotak div img {
+    width: 200px;
+}
+
+.kotak div img:hover{
+    color: aquamarine;
+    opacity: 0.7;
+}
+
+.kotak-2 {
+    justify-self: center;
+}
+
+.kotak-1 {
+    color: rgba(0,0,0,0.5);
+    font-size: 40px;
+
+    grid-column-end: span 3;
+    justify-self: center;
+    padding-top: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.kotak-1:hover{
+    color: rgba(192, 192, 192, 0.8);
+
+}
+
+.page2 {
+    height: 600px;
+    background-position: center;
+    background-image: url('images/1056214.png');
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    align-items: center;
+}
+
+.kotak2 {
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    grid-template-columns: 300px auto 300px;
+    display: grid;
+    top: 50px;
+    bottom: 50px;
+    margin: auto;
+}
+
+.about{
+    font-family: 'Default_SC',serif;
+    text-align: center;
+    align-items: center;
+    color: rgba(192, 192, 192, 0.7);
+    grid-column-end: span 3;
+    justify-self: center;
+    font-size: 50px;
+}
+
+.kotak2-1 {
+    text-align: justify;
+    font-size: 20px;
+    grid-column-end: span 3;
+    color: rgba(192, 192, 192, 0.7);
+    font-family: 'Default_SC',serif;
+}
+
+.page3{
+    height: 4493px;
+    top: 20px;
+    background-image: url('images/1188186.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: darken;
+    align-items: center;
+    text-align: center;
+    color: rgba(192, 192, 192, 0.8);
+    font-size: 50px;
+    
+}
+
+.page3 p {
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.kotak3{
+    position: relative;
+    width: 1330px;
+    height: auto;
+    top: 10px;
+    background-color: rgba(0,0,0,0.5);
+    margin: auto;
+}
+
+.kotak3-1{
+    height: 550px;
+    background-position: center;
+    background-image: url('images/Vanguard\ background.jpg');
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: darken;
+}
+
+.kotak3-2{
+    height: 550px;
+    background-position: center;
+    background-image: url('images/Defender\ background.jpg');
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: darken;
+}
+
+.kotak3-3{
+    height: 550px;
+    background-position: center;
+    background-image: url('images/Guard\ background.jpg');
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: darken;
+}
+
+.kotak3-4{
+    height: 550px;
+    background-position: center;
+    background-image: url('images/Sniper\ background.jpg');
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: darken;
+}
+
+.kotak3-5{
+    height: 550px;
+    background-position: center;
+    background-image: url('images/Caster\ background.jpg');
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: darken;
+}
+
+.kotak3-6{
+    height: 550px;
+    background-position: center;
+    background-image: url('images/Medic\ background.jpg');
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: darken;
+}
+
+.kotak3-7{
+    height: 550px;
+    background-position: center;
+    background-image: url('images/Supporter\ background.jpg');
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: darken;
+}
+
+.kotak3-8{
+    height: 550px;
+    background-position: center;
+    background-image: url('images/Specialist\ background.jpg');
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: darken;
+}
+
+.kotak3-1-isi{
+    position: relative;
+    width: 1100px;
+    height: 400px;
+    left: 100px;
+    top: 100px;
+    grid-template-columns: auto 280px;
+    display: grid;
+}
+
+.kotak3-1-isi h1 {
+    font-size: 60px;
+    text-align: left;
+    transition: 0.2s;
+}
+
+.kotak3-1-isi h1:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.kotak3-1-isi p {
+    font-size: 24px;
+    text-align: justify;
+}
+
+.kotak3-1-isi2{
+    position: relative;
+    width: 1100px;
+    height: 400px;
+    left: 100px;
+    top: 100px;
+    grid-template-columns: 280px auto;
+    display: grid;
+}
+
+.kotak3-1-isi2 h1 {
+    font-size: 60px;
+    text-align: left;
+    transition: 0.2s;
+}
+
+.kotak3-1-isi2 h1:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.kotak3-1-isi2 p {
+    font-size: 24px;
+    text-align: justify;
+}
+
+.floatkanan {
+    float: right;
+    transition: 0.1s;
+    width: 180px;
+}
+
+.floatkanan:hover {
+    width: 250px;
+}
+
+.floatkiri{
+    float: left;
+    transition: 0.1s;
+    width: 180px;
+}
+
+.floatkiri:hover {
+    width: 250px;
+}
+
+.page4 {
+    position: relative;
+    height: 600px;
+    background-position: center;
+    background-image: url('images/Requirement\ background.jpg');
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+    align-items: center;
+}
+
+.kotak4 {
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px auto auto auto auto auto;
+    display: grid;
+    top: 50px;
+    bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    margin: auto;
+}
+
+.about2{
+    font-family: 'Default_SC',serif;
+    text-align: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    grid-column-end: span 2;
+    justify-self: center;
+    font-size: 45px;
+}
+
+.kotak4-1{
+    padding-left: 30px;
+}
+
+.kotak4-2{
+    padding-left: 60px;
+}
+
+.page5{
+    height: 500px;
+    background-position: center;
+    background-image: url('images/1093323.jpg');
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.kotak5-1{
+    position: relative;
+    width: 600px;
+    height: 150px;
+    grid-template-columns: auto auto auto auto auto;
+    display: grid;
+    top: 30px;
+    margin: auto;
+    justify-self: center;
+    grid-gap: 30px 10px;
+}
+
+.kotak5-1-isi{
+    text-align: center;
+    grid-column-end: span 5;
+}
+
+.kotak5-2{
+    position: relative;
+    width: 600px;
+    height: 200px;
+    grid-template-columns: auto auto;
+    display: grid;
+    top: 80px;
+    margin: auto;
+    justify-self: center;
+    grid-gap: 0px 10px;
+}
+
+.kotak5-2-isi{
+    text-align: center;
+    grid-column-end: span 2;
+}
+
+.kotak5-2-isi-div{
+    justify-self: center;
+}
+
+.kotak5-2-isi-div2{
+    justify-self: center;
+    padding-top: 20px;
+}
+
+.kotak5-2-isi-div a:hover {
+    opacity: 0.7;
+}
+
+.kotak5-2-isi-div2 a:hover {
+    opacity: 0.7;
+}
+
+.kotak5-2-isi-img {
+    width: 250px;
+}
+
+.icons{
+    justify-self: center;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon{
+    color: #fff;
+    font-size: 70px;
+
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover{
+    color: aquamarine;
+}
+
+.kotak5-3 {
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    width: 600px;
+    height: 20px;
+    top: 100px;
+    margin: auto;
+    justify-self: center;
+    grid-gap: 0px 10px;
+}
+
+@font-face{
+    font-family: 'Default_SC';
+    src: url('ja-jp.ttf');
+}
